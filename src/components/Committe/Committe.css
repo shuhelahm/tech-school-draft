@@ -1,0 +1,8 @@
+.committe{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 80%;
+    background-color: rgba(137, 43, 226, 0.137);
+    margin: 10px auto 10px;
+    border-radius: 10px;
+}
