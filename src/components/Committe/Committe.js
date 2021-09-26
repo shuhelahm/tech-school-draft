@@ -13,7 +13,7 @@ const Committe = () => {
         <div className='committe'>
             <div>
                 {
-                employees.map(employee=><Employee key={employee.key} employee={employee}></Employee>)
+                employees.map(employee=><Employee key={employee.name} employee={employee}></Employee>)
             }
             </div>
             <div>

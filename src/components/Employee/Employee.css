@@ -1,14 +1,11 @@
 .employee{
-    display: flex;
-    height: 300px;
     border-bottom: 2px solid lightgray;
     border-right: 2px solid lightgray;
-    align-items: center;
 }
 .employee-img{
-    margin: 20px;
-    width: 200px;
-    height: 200px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
     border: 2px solid rgba(65, 60, 62, 0.342);
     border-radius: 5px;
 }
