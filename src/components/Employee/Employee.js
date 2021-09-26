@@ -8,6 +8,7 @@ const Employee = (props) => {
     return (
         <div className='employee'>
             <div>
+            <div>
                 <img className='employee-img' src={img} alt="" />
             </div>
             <div>
@@ -15,7 +16,10 @@ const Employee = (props) => {
                 <h3>Title: {title}</h3>
                 <h3>Experience: {experience} years</h3>
                 <h3>Have to pay: ${payment}/project</h3>
-            <button className='add-to-plan-btn'> {<FontAwesomeIcon icon={faShoppingCart} />} Add to my plan</button>
+            <button
+            onClick={()=>props.handleAddToCart(props.employee)}
+             className='add-to-plan-btn'> {<FontAwesomeIcon icon={faShoppingCart} />} Add to my plan</button>
+            </div>
             </div>
         </div>
     );
