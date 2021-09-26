@@ -11,7 +11,6 @@ const Cart = (props) => {
         <div>
             <h2>Employee amount: {cart.length}</h2>
             <h3>Total cost: {total}</h3>
-            <h4>Emloyee name: </h4>
         </div>
     );
 };
