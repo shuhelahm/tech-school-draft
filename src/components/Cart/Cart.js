@@ -16,7 +16,7 @@ const Cart = (props) => {
             <h3>Total cost:$ {total}</h3>
             {
                 cart.map(selectedName=> <Selected 
-                    key={selectedName.name}
+                    key={selectedName.key}
                     name={selectedName.name}></Selected>)
             }
         </div>

@@ -24,7 +24,7 @@ const Committe = () => {
             <div className='employee-container'>
                 {
                 employees.map(employee=><Employee 
-                    key={employee.name} 
+                    key={employee.key} 
                     employee={employee}
                     handleAddToCart={handleAddToCart}>   
                     </Employee>)
