@@ -1,6 +1,6 @@
 # Tech School Draft
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Visit the website](https://tech-school-draft.netlify.app/).
 
 ## Available Scripts
 
