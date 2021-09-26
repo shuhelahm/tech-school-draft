@@ -12,20 +12,22 @@ const Committe = () => {
         .then(data=>setEmployees(data))
     },[]);
 
+    // add to cart btn function
     const handleAddToCart = (employee) =>{
          const newCart = [...cart, employee];
          setCart(newCart);
     }
 
     return (
+        // full emloyee section
         <div className='committe'>
             <div className='employee-container'>
                 {
                 employees.map(employee=><Employee 
                     key={employee.name} 
-                    employee={employee} 
-                    handleAddToCart={handleAddToCart}
-                   ></Employee>)
+                    employee={employee}
+                    handleAddToCart={handleAddToCart}>   
+                    </Employee>)
             }
             </div>
             <div>
