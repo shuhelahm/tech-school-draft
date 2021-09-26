@@ -19,7 +19,7 @@ const Committe = () => {
 
     return (
         <div className='committe'>
-            <div>
+            <div className='employee-container'>
                 {
                 employees.map(employee=><Employee 
                     key={employee.name} 

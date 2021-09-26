@@ -6,3 +6,7 @@
     margin: 10px auto 10px;
     border-radius: 10px;
 }
+.employee-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
