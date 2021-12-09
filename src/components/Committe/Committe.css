@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     width: 80%;
-    margin: 30px auto;
+    margin: 0 auto;
     border-radius: 10px;
 }
 .employee-container{

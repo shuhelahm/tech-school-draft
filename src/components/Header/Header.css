@@ -2,7 +2,7 @@
 .header{
     width: 80%;
     background-color: rgba(81, 255, 0, 0.198);
-    margin: 0 auto;
+    margin: 0 auto 5px;
     border-radius: 10px;
     padding: 5px 0;
 }
